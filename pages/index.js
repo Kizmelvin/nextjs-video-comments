@@ -115,7 +115,7 @@ const Home = () => {
             {comments &&
               comments.map((comm) => (
                 <div className="border-2 p-4" key={comm.$id}>
-                  <p className="text-gray-900 font-black">
+                  <p className="text-gray-800 font-black">
                     {comm.name} {""} :{" "}
                     <span className="text-blue-500 font-normal">
                       {comm.videoTime}
